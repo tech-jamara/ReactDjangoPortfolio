@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext,vietnamese");
+
+.intro-page {
+  position: relative;
+}
+.large-decor {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+}
+.decor-dot {
+  position: absolute;
+  top: 80px;
+  left: 40%;
+  animation: nudge 10s linear infinite alternate;
+}
+
+.decor-dot2 {
+  position: absolute;
+  top: 150px;
+  left: 40%;
+}
+.decor-box {
+  position: absolute;
+  top: 60px;
+  right: 10%;
+  transform: rotate(45deg);
+  animation: nudge2 10s linear infinite alternate;
+}
+
+.decor-box img {
+  opacity: 0.2;
+  width: 70px;
+  z-index: 2;
+}
+.decor-dot img {
+  opacity: 0.5;
+  width: 130px;
+}
+.decor-dot2 img {
+  opacity: 0.2;
+  width: 130px;
+}
+.large-decor img {
+  opacity: 0.5;
+}
+.intro-container {
+  width: 100%;
+}
+.intro-row {
+  display: flex !important;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 20px;
+  margin-top: 60px;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  flex-wrap: wrap;
+  justify-content: space-evenly !important;
+}
+.intro-img {
+  width: 55%;
+  z-index: 50;
+  margin-right: 0px !important;
+}
+.ff {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.intro-name {
+  color: var(--color-info-light);
+}
+.hello {
+  font-size: 17px;
+  text-transform: uppercase;
+  color: var(-color-title);
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+
+  font-weight: 800;
+  line-height: 1;
+  font-family: "Cormorant Garamond", serif;
+
+  color: var(--white);
+  background: var(--color-special-color);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.intro-left {
+  padding: 30px 0;
+}
+.intro-left .name {
+  font-size: 4rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-family: "Cormorant Garamond", serif;
+}
+.name span {
+  font-weight: 800 !important;
+  line-height: 1;
+  color: var(--white);
+  background: var(--color-special-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Cormorant Garamond", serif;
+}
+.intro-left .job {
+  font-size: 2rem;
+  margin-bottom: 10px !important;
+  color: var(--color-white);
+  font-family: "Cormorant Garamond", serif;
+}
+.intro-left p {
+  margin-bottom: 50px !important;
+  line-height: 1.9em;
+  font-weight: 300;
+  font-size: 15px;
+}
+.small-intro {
+  padding: 0 30px;
+}
+.intro-left .myinfo {
+  font-size: 15px;
+  font-weight: 300 !important;
+  margin-bottom: 20px;
+  font-weight: 300;
+  color: var(--color-white);
+  font-size: 16px;
+}
+.intro-btns button {
+  height: 60px;
+  width: 180px;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 300;
+  font-size: 13px;
+  border: none;
+  border-radius: 47px;
+  color: var(--color-white);
+  border: 1px solid var(--color-title);
+  background: transparent;
+}
+.intro-left .intro-btns .contact-me {
+  margin-right: 30px;
+  border: none;
+  font-weight: 500;
+  color: var(--color-dark);
+  background: var(--color-button) !important;
+  transition: all 0.5s ease;
+}
+.intro-btns a:hover {
+  color: var(--color-dark) !important;
+}
+.intro-btns .my-cv {
+  transition: all 0.5s ease;
+}
+.intro-btns .my-cv:hover {
+  color: var(--color-dark);
+  background: var(--color-white);
+}
+.intro-btns .contact-me:hover {
+  background: var(--color-button-hover) !important;
+}
+.intro-left .intro-links {
+  display: flex;
+  margin-top: 40px;
+}
+.intro-btns .contact-me {
+  position: relative;
+}
+.intro-btns .contact-me i {
+  position: absolute;
+  right: 30px;
+  top: 24px;
+}
+.intro-btns .my-cv {
+  position: relative;
+}
+.intro-btns .my-cv i {
+  position: absolute;
+  font-size: 18px;
+  right: 25px;
+  top: 20px;
+}
+.intro-left .icon-link i {
+  margin-right: 10px;
+  font-size: 16px;
+  color: var(--color-white);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#particles-js-dark.min-height {
+  height: calc(100% - 100px);
+}
+
+#particles-js-dark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.parcol {
+  position: absolute !important;
+  left: 0;
+  bottom: 0;
+}
+#tsparticles {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+}
+.left-img {
+  position: relative;
+}
+.backi {
+  position: absolute;
+  right: 0px !important;
+  top: 0px;
+}
+.backi img {
+  opacity: 0.1;
+  width: 940px;
+}
+.intro-name {
+  position: relative;
+}
+.intro-links {
+  position: absolute;
+  top: 270px !important;
+  transform: rotate(270deg);
+  right: -130px;
+  color: antiquewhite;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.intro-links i {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  transform: rotate(90deg);
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(193, 248, 248);
+  background: var(--color-background-2);
+  font-size: 19px;
+  margin: 10px 10px;
+}
+.intro-links a {
+  text-decoration: none;
+  list-style: none;
+}
+.intro-links i:hover {
+  background: rgb(236, 197, 113);
+  border-radius: 7px;
+
+  color: var(--color-dark);
+}
+.intro-links h6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* light theme sytles */
+.light .hello {
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: var(--color-button) !important;
+}
+
+@media only screen and (min-width: 1730px) {
+  .intro-left {
+    padding-left: 50px;
+  }
+  .intro-name .hello {
+    font-size: 2rem !important;
+  }
+  .intro-name .name {
+    font-size: 6rem !important;
+  }
+  .intro-name .job {
+    font-size: 4rem;
+  }
+  .intro-name .myinfo {
+    font-size: 2rem;
+  }
+  .intro-btns button {
+    height: 90px;
+    font-size: 2rem;
+    width: 250px;
+  }
+  .intro-links {
+    top: 400px !important;
+    right: -200px;
+  }
+  .intro-links i {
+    width: 90px;
+    font-size: 2rem;
+    height: 90px;
+  }
+}
+@media only screen and (max-width: 1070px) {
+  .intro-btns button {
+    width: 180px !important;
+    margin-bottom: 10px;
+    height: 60px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .intro-img {
+    width: 70% !important;
+  }
+  h3 {
+    width: 100% !important;
+  }
+  .intro-row {
+    padding: 50px 0 !important;
+    margin-top: 0 !important;
+  }
+  .intro-links {
+    right: -85px;
+  }
+  .intro-name .name {
+    font-size: 2rem !important;
+    margin-bottom: 10px;
+  }
+  .hello {
+    font-size: 12px !important;
+  }
+  .job {
+    font-size: 1.5rem !important;
+  }
+  .myinfo {
+    font-size: 14px !important;
+  }
+  .intro-btns button {
+    width: 150px !important;
+    height: 50px !important;
+  }
+  .intro-btns .contact-me i {
+    right: 20px;
+    top: 20px;
+  }
+  .intro-btns .my-cv i {
+    right: 16px;
+    top: 16px;
+  }
+  .intro-links i {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .intro-page {
+    padding-top: 50px !important;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .intro-row {
+    padding: 0 !important;
+    margin-bottom: 40px !important;
+  }
+  .intro-img {
+    width: 45% !important;
+  }
+
+  .intro-links {
+    top: 550px !important;
+    right: -100px !important;
+  }
+  .intro-btns button {
+    width: 120px;
+    height: 45px;
+  }
+}
+@media only screen and (max-width: 625px) {
+  .intro-page {
+    text-align: center;
+  }
+  .intro-links {
+    right: -140px;
+  }
+  .myinfo {
+    text-align: center !important;
+  }
+  .job {
+    text-align: center;
+    font-size: 18px !important;
+  }
+  .intro-img {
+    width: 55% !important;
+  }
+  .intro-btns .contact-me {
+  }
+}
+@media only screen and (max-width: 425px) {
+  .intro-links {
+    right: -140px;
+  }
+  .intro-img {
+    width: 70% !important;
+  }
+  .intro-btns button {
+    width: 160px !important;
+  }
+  .intro-btns .contact-me {
+    margin-left: 0 !important;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .intro-btns .contact-me {
+    margin-right: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .intro-links {
+    right: -150px;
+  }
+}
+@media only screen and (max-width: 330px) {
+  .intro-page {
+    padding-bottom: 50px;
+  }
+  .intro-links {
+    top: 580px !important;
+
+    right: -110px !important;
+  }
+  .intro-btns button {
+    width: 150px;
+    height: 45px;
+    margin: 10px 10px !important;
+  }
+  .intro-left p {
+    margin-bottom: 10px !important;
+  }
+  .intro-img {
+    width: 75% !important;
+  }
+}
+
+/* light theme */
+.light .backi img {
+  opacity: 0.04 !important;
+}
+.light .intro-links i {
+  color: #000000;
+  background: #d6d6d6;
+  transition: all 0.5s ease;
+}
+.light .intro-links i:hover {
+  background: var(--color-button);
+}
+.light .name {
+  font-size: 3.5rem;
+}
+
+.light .name span {
+  font-family: Poppins, sans-serif !important;
+  letter-spacing: normal !important;
+  font-weight: 600 !important;
+}
+.light button {
+  font-weight: 600 !important;
+}
+.light .contact-me {
+  color: var(--color-background-2) !important;
+}

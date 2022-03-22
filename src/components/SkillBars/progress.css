@@ -1,0 +1,184 @@
+.progress-container {
+  color: var(--color-info-light);
+  padding: 70px 50px;
+  background: var(--color-background-2);
+}
+.progress-row2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.fullwidth {
+  background: var(--color-background);
+  height: 5px;
+  width: 100%;
+  bottom: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-radius: 2px;
+  position: relative;
+}
+
+.progress-bar2 {
+  height: 45px;
+  width: 100%;
+
+  position: relative;
+  border-radius: 5px;
+
+  margin-bottom: 30px;
+}
+.progress-container .skill-info {
+  display: flex;
+  padding: 10px 0px;
+  justify-content: space-between;
+}
+.skill-bar {
+  position: absolute;
+  left: 0;
+  background: var(--color-button);
+  animation: progres 4s infinite linear;
+
+  height: 5px;
+  bottom: 0;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-radius: 2px;
+}
+.skill-detail {
+  display: flex !important;
+  flex-direction: row;
+}
+.skill-name {
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size: 12px !important;
+  letter-spacing: 1px;
+}
+.skill-info {
+  padding-top: 10px;
+}
+.progress-title {
+  margin-bottom: 50px;
+}
+.progress {
+  width: 100%;
+  height: 50px;
+}
+.progress-title h2 {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: var(--color-title);
+  letter-spacing: 3px;
+  color: var(--color-title);
+  font-weight: 600;
+  /* 
+  font-weight: 800 !important;
+  line-height: 1;
+  color: var(--white);
+  background: var(--color-special-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.progress-title h3 {
+  width: 300px;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+
+.fa-html5 {
+  color: #ff4500;
+}
+.fa-css3 {
+  color: #00aeff;
+}
+.fa-js-square {
+  color: #e9b50a;
+}
+.fa-react {
+  color: #00aeff;
+}
+.fa-facebook {
+  color: #5656be;
+}
+.fa-python {
+  color: #57a4d1;
+}
+.fa-database {
+  color: #0cf;
+}
+.bxl-django {
+  color: green;
+  font-size: 18px !important;
+  margin-top: 3px;
+}
+.bxl-firebase {
+  color: yellow;
+}
+.bxs-component {
+  color: rgb(115, 240, 84);
+}
+.bx-code-block {
+  color: rgb(255, 0, 179);
+}
+@media only screen and (min-width: 1768px) {
+  .progress-container {
+    padding: 80px 100px;
+  }
+  .progress-container .progress-title h2 {
+    font-size: 2rem;
+  }
+  .progress-container .progress-title h3 {
+    font-size: 3rem;
+    width: 500px;
+  }
+  .progress-container .progress-bar2 {
+    height: 70px;
+    margin-bottom: 50px;
+  }
+  .progress-bar2 .fullwidth {
+    height: 10px;
+  }
+  .progress-bar2 .skill-bar {
+    height: 10px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .progress-container .col-xl-4 {
+    flex-basis: 50% !important;
+    min-width: 50% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .progress-container {
+    padding: 30px 30px !important;
+  }
+  .progress-title {
+    text-align: center;
+  }
+  .progress-title h3 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .progress-container .col-xl-4 {
+    flex-basis: 100% !important;
+    min-width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .progress-container {
+    padding: 30px 10px !important;
+  }
+}
+
+/*light theme  */
+.light .skill-bar {
+  background: var(--color-bars);
+}

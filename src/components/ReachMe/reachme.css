@@ -1,0 +1,53 @@
+.reachme-container {
+  background: url("./../../images/parallax-dark-3.jpg");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  color: var(--color-info-light);
+  max-width: 1400px;
+  padding: 0 50px;
+  margin: 100px 0px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+/* .reachme-container::after {
+  content: "";
+  background: rgba(7, 3, 58, 0.6);
+  height: inherit;
+  width: 100%;
+  position: absolute;
+} */
+.reachme-info {
+  z-index: 100;
+}
+.reachme-title {
+  font-size: 3rem;
+  font-weight: 800 !important;
+  margin-bottom: 20px !important;
+}
+.reachme-title span {
+  color: #a5702a;
+  font-family: "Mr Dafoe", cursive;
+  font-size: 4rem;
+  margin-bottom: 40px !important;
+}
+.contact-by p {
+  font-size: 1rem;
+}
+.reachout-btn {
+  background: rgb(2, 6, 31);
+  height: 50px;
+  margin-top: 30px;
+  width: 250px;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius-1);
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--color-info-light);
+}

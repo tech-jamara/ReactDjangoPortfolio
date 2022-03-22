@@ -1,0 +1,134 @@
+.contact-me2 {
+  color: var(--color-info-light);
+  max-width: 1400px;
+  padding: 70px 60px;
+  margin-top: 50px;
+  background: var(--color-background-2);
+}
+.contact-title {
+  margin-bottom: 30px;
+}
+.contact-title h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: var(--color-title);
+}
+.contact-title h3 {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  width: 390px;
+  font-family: "Playfair Display", Sans-serif;
+
+  margin-bottom: 40px;
+}
+.contact-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-info {
+  flex-basis: 24%;
+  min-width: 300px !important;
+  display: flex !important;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #585756;
+  padding: 20px 0px 20px 10px;
+  background: var(--color-card-background);
+  box-shadow: rgb(23 42 69) 0px 0px 30px -10px;
+}
+.contact-info {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-details {
+  margin-right: 30px;
+}
+.icon-cont {
+  background: rgba(82, 95, 165, 0.1);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.contact-info h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.contact-info i {
+  margin-bottom: 10px;
+  height: 45px;
+  width: 45px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  color: #999393;
+  align-items: center;
+  opacity: 0.8;
+}
+/* .fa-whatsapp {
+  background: rgb(56, 219, 56);
+}
+.fa-envelope {
+  font-size: 25px !important;
+  background: rgb(209, 44, 44);
+}
+.fa-location-dot {
+  background: #c20ed3;
+  font-size: 25px !important;
+}
+.fa-phone {
+  background: rgb(63, 84, 205);
+  font-size: 20px !important;
+} */
+.contact-details p {
+  font-size: 12px;
+  font-weight: 300;
+  color: var(--color-title);
+}
+@media only screen and (max-width: 768px) {
+  .contact-me2 .contact-title {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .contact-row {
+    display: flex !important;
+    justify-content: center;
+  }
+  .contact-details {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .contact-info {
+    flex-basis: 100%;
+  }
+}
+
+/*  light theme settings */
+
+.light .contact-info {
+  box-shadow: none;
+  border: 1px solid #ccc;
+}
